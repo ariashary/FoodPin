@@ -13,6 +13,7 @@
 		BDA872E822E592B70019B9F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA872E722E592B70019B9F0 /* Main.storyboard */; };
 		BDA872EA22E598070019B9F0 /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA872E922E598070019B9F0 /* RestaurantTableViewController.swift */; };
 		BDA872EC22E5A14D0019B9F0 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA872EB22E5A14D0019B9F0 /* RestaurantTableViewCell.swift */; };
+		BDA872EE22E61A100019B9F0 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA872ED22E61A100019B9F0 /* RestaurantDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BDA872E722E592B70019B9F0 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BDA872E922E598070019B9F0 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
 		BDA872EB22E5A14D0019B9F0 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		BDA872ED22E61A100019B9F0 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				BDA872D522E591E50019B9F0 /* AppDelegate.swift */,
 				BDA872E922E598070019B9F0 /* RestaurantTableViewController.swift */,
 				BDA872EB22E5A14D0019B9F0 /* RestaurantTableViewCell.swift */,
+				BDA872ED22E61A100019B9F0 /* RestaurantDetailViewController.swift */,
 				BDA872E722E592B70019B9F0 /* Main.storyboard */,
 				BDA872DC22E591E50019B9F0 /* Assets.xcassets */,
 				BDA872DE22E591E50019B9F0 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				BDA872EA22E598070019B9F0 /* RestaurantTableViewController.swift in Sources */,
 				BDA872EC22E5A14D0019B9F0 /* RestaurantTableViewCell.swift in Sources */,
+				BDA872EE22E61A100019B9F0 /* RestaurantDetailViewController.swift in Sources */,
 				BDA872D622E591E50019B9F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
