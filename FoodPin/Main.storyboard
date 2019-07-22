@@ -26,7 +26,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lht-FM-Cr3">
-                                            <rect key="frame" x="6" y="2" width="369" height="76"/>
+                                            <rect key="frame" x="6" y="10" width="369" height="61.5"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dZj-y0-9AP">
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
@@ -67,10 +67,10 @@
                                         </stackView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="bottom" secondItem="lht-FM-Cr3" secondAttribute="bottom" constant="1.5" id="5CE-9K-FZw"/>
+                                        <constraint firstAttribute="bottom" secondItem="lht-FM-Cr3" secondAttribute="bottom" constant="8" id="5CE-9K-FZw"/>
                                         <constraint firstItem="lht-FM-Cr3" firstAttribute="leading" secondItem="8zx-e9-6Cl" secondAttribute="leading" constant="6" id="ODJ-vR-bcx"/>
                                         <constraint firstAttribute="trailing" secondItem="lht-FM-Cr3" secondAttribute="trailing" id="Uwb-pL-YJd"/>
-                                        <constraint firstItem="lht-FM-Cr3" firstAttribute="top" secondItem="8zx-e9-6Cl" secondAttribute="top" constant="2" id="XQY-T1-fYm"/>
+                                        <constraint firstItem="lht-FM-Cr3" firstAttribute="top" secondItem="8zx-e9-6Cl" secondAttribute="top" constant="10" id="XQY-T1-fYm"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
