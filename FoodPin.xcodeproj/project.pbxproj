@@ -14,6 +14,7 @@
 		BDA872EA22E598070019B9F0 /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA872E922E598070019B9F0 /* RestaurantTableViewController.swift */; };
 		BDA872EC22E5A14D0019B9F0 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA872EB22E5A14D0019B9F0 /* RestaurantTableViewCell.swift */; };
 		BDA872EE22E61A100019B9F0 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA872ED22E61A100019B9F0 /* RestaurantDetailViewController.swift */; };
+		BDA872F022E6254E0019B9F0 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA872EF22E6254E0019B9F0 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BDA872E922E598070019B9F0 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
 		BDA872EB22E5A14D0019B9F0 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
 		BDA872ED22E61A100019B9F0 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		BDA872EF22E6254E0019B9F0 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				BDA872E922E598070019B9F0 /* RestaurantTableViewController.swift */,
 				BDA872EB22E5A14D0019B9F0 /* RestaurantTableViewCell.swift */,
 				BDA872ED22E61A100019B9F0 /* RestaurantDetailViewController.swift */,
+				BDA872EF22E6254E0019B9F0 /* Restaurant.swift */,
 				BDA872E722E592B70019B9F0 /* Main.storyboard */,
 				BDA872DC22E591E50019B9F0 /* Assets.xcassets */,
 				BDA872DE22E591E50019B9F0 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDA872F022E6254E0019B9F0 /* Restaurant.swift in Sources */,
 				BDA872EA22E598070019B9F0 /* RestaurantTableViewController.swift in Sources */,
 				BDA872EC22E5A14D0019B9F0 /* RestaurantTableViewCell.swift in Sources */,
 				BDA872EE22E61A100019B9F0 /* RestaurantDetailViewController.swift in Sources */,
