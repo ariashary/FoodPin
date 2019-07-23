@@ -37,6 +37,16 @@ class RestaurantTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Remove the title of the back button
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+        
+        navigationController?.hidesBarsOnSwipe = true
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        navigationController?.hidesBarsOnSwipe = true
     }
 
     // MARK: - Table view data source

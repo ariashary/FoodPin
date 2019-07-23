@@ -12,6 +12,7 @@ class Restaurant {
     var name = ""
     var type = ""
     var location = ""
+    var phone = "343-234553"
     var image = ""
     var isVisited = false
     
