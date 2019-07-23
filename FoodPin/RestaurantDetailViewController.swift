@@ -10,9 +10,6 @@ import UIKit
 
 class RestaurantDetailViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    @IBOutlet var restaurantNameLabel: UILabel!
-    @IBOutlet var restaurantTypeLabel: UILabel!
-    @IBOutlet var restaurantLocationLabel: UILabel!
     @IBOutlet var restaurantImageView: UIImageView!
     @IBOutlet var tableView: UITableView!
     
@@ -21,9 +18,6 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        restaurantNameLabel.text = restaurant.name
-//        restaurantTypeLabel.text = restaurant.type
-//        restaurantLocationLabel.text = restaurant.location
         restaurantImageView.image = UIImage(named: restaurant.image)
         
         tableView.backgroundColor = UIColor(red: 240/255, green: 240/255, blue: 240/255, alpha: 0.2)
@@ -33,6 +27,9 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
         title = restaurant.name
         
         navigationController?.hidesBarsOnSwipe = false
+        
+        tableView.estimatedRowHeight = 36
+        tableView.rowHeight = UITableView.automaticDimension
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -40,6 +37,10 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
         
         navigationController?.hidesBarsOnSwipe = false
         navigationController?.setNavigationBarHidden(false, animated: true)
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
