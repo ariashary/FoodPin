@@ -40,7 +40,7 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
         let geoCoder = CLGeocoder()
         geoCoder.geocodeAddressString(restaurant.location) { (placemarks, error) in
             if error != nil {
-                print(error)
+                print(error!)
                 return
             }
             
