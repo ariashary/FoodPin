@@ -15,7 +15,7 @@ class ReviewViewController: UIViewController {
     @IBOutlet var reviewImageView: UIImageView!
     @IBOutlet var buttonClose: UIButton!
     
-    var restaurant: Restaurant?
+    var restaurant: RestaurantMO?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,7 +31,7 @@ class ReviewViewController: UIViewController {
         containerView.transform = combineTransform
         
         if let restaurant = restaurant {
-            reviewImageView.image = UIImage(named: restaurant.image)
+            reviewImageView.image = UIImage(data: restaurant.image as! Data)
         }
         
         buttonClose.transform = CGAffineTransform.init(translationX: 1000, y: 0)

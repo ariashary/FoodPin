@@ -16,12 +16,12 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
     
     @IBOutlet var mapView: MKMapView!
     
-    var restaurant: Restaurant!
+    var restaurant: RestaurantMO!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        restaurantImageView.image = UIImage(named: restaurant.image)
+        restaurantImageView.image = UIImage(data: restaurant.image as! Data)
         
         tableView.backgroundColor = UIColor(red: 240/255, green: 240/255, blue: 240/255, alpha: 0.2)
         //tableView.tableFooterView = UIView(frame: .zero)
@@ -38,7 +38,7 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
         mapView.addGestureRecognizer(tapGestureRecognizer)
         
         let geoCoder = CLGeocoder()
-        geoCoder.geocodeAddressString(restaurant.location) { (placemarks, error) in
+        geoCoder.geocodeAddressString(restaurant.location!) { (placemarks, error) in
             if error != nil {
                 print(error!)
                 return
@@ -127,6 +127,10 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
             case "dislike": restaurant.rating = "I don't like it."
             default: break
             }
+        }
+        
+        if let appDelegate = (UIApplication.shared.delegate as? AppDelegate) {
+            appDelegate.saveContext()
         }
         
         tableView.reloadData()

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class AddRestaurantController: UITableViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
@@ -14,10 +15,13 @@ class AddRestaurantController: UITableViewController, UIImagePickerControllerDel
     @IBOutlet var nameTextField: UITextField!
     @IBOutlet var typeTextField: UITextField!
     @IBOutlet var locationTextField: UITextField!
+    @IBOutlet var phoneTextField: UITextField!
     @IBOutlet var yesButton: UIButton!
     @IBOutlet var noButton: UIButton!
     
     var isVisited = true
+    
+    var restaurant: RestaurantMO!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -70,6 +74,24 @@ class AddRestaurantController: UITableViewController, UIImagePickerControllerDel
             present(alertController, animated: true, completion: nil)
             
             return
+        }
+        
+        if let appDelegate = (UIApplication.shared.delegate as? AppDelegate) {
+            restaurant = RestaurantMO(context: appDelegate.persistentContainer.viewContext)
+            restaurant.name = nameTextField.text
+            restaurant.type = typeTextField.text
+            restaurant.location = locationTextField.text
+            restaurant.phone = phoneTextField.text
+            restaurant.isVisited = isVisited
+            
+            if let restaurantImage = photoImageView.image {
+                if let imageData = restaurantImage.pngData() {
+                    restaurant.image = NSData(data: imageData) as Data
+                }
+            }
+            
+            print("Saving data to context...")
+            appDelegate.saveContext()
         }
         
         dismiss(animated: true, completion: nil)

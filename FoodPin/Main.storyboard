@@ -220,8 +220,39 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="72" id="EQP-hN-sSI">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="72" id="bFj-Zo-Enj">
                                         <rect key="frame" x="0.0" y="466" width="375" height="72"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bFj-Zo-Enj" id="hyw-FO-Q4S">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="71.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PHONE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwf-Np-Tld">
+                                                    <rect key="frame" x="16" y="11" width="58" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Restaurant Phone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hqk-zV-OBg">
+                                                    <rect key="frame" x="16" y="31" width="343" height="30"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Nwf-Np-Tld" firstAttribute="leading" secondItem="hyw-FO-Q4S" secondAttribute="leadingMargin" id="4i9-zu-2Jl"/>
+                                                <constraint firstItem="hqk-zV-OBg" firstAttribute="bottom" secondItem="hyw-FO-Q4S" secondAttribute="bottomMargin" id="67X-z2-mjz"/>
+                                                <constraint firstItem="hqk-zV-OBg" firstAttribute="trailing" secondItem="hyw-FO-Q4S" secondAttribute="trailingMargin" id="DDq-rt-FsW"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Nwf-Np-Tld" secondAttribute="bottom" constant="29" id="FYI-Mw-r2f"/>
+                                                <constraint firstItem="Nwf-Np-Tld" firstAttribute="top" secondItem="hyw-FO-Q4S" secondAttribute="topMargin" id="QIV-gr-W1q"/>
+                                                <constraint firstItem="hqk-zV-OBg" firstAttribute="top" secondItem="hyw-FO-Q4S" secondAttribute="topMargin" constant="20" id="VXi-e8-Bll"/>
+                                                <constraint firstItem="Nwf-Np-Tld" firstAttribute="leading" secondItem="hqk-zV-OBg" secondAttribute="leading" id="c9S-Nn-w5S"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="72" id="EQP-hN-sSI">
+                                        <rect key="frame" x="0.0" y="538" width="375" height="72"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EQP-hN-sSI" id="OCe-th-Lys">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="71.5"/>
@@ -302,6 +333,7 @@
                         <outlet property="locationTextField" destination="IcJ-Pd-xrs" id="FY8-oM-I3W"/>
                         <outlet property="nameTextField" destination="msH-MD-bCi" id="1ZH-tg-As6"/>
                         <outlet property="noButton" destination="ytt-TJ-OYx" id="9G4-2T-fdo"/>
+                        <outlet property="phoneTextField" destination="hqk-zV-OBg" id="VYQ-Bk-V2X"/>
                         <outlet property="photoImageView" destination="2ch-Eh-ASQ" id="FlS-ji-9uR"/>
                         <outlet property="typeTextField" destination="yyF-gR-cAh" id="yyv-2p-Zpe"/>
                         <outlet property="yesButton" destination="KD2-0R-abG" id="L0S-OO-Wbi"/>
