@@ -13,6 +13,8 @@
 		BD59795B22E8BE8800A6D09F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD59795A22E8BE8800A6D09F /* MapViewController.swift */; };
 		BD59795D22E8D14C00A6D09F /* AddRestaurantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD59795C22E8D14C00A6D09F /* AddRestaurantController.swift */; };
 		BD59796022E99A9500A6D09F /* FoodPin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD59795E22E99A9500A6D09F /* FoodPin.xcdatamodeld */; };
+		BD59796222EB4B6F00A6D09F /* WalkthroughContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD59796122EB4B6F00A6D09F /* WalkthroughContentViewController.swift */; };
+		BD59796422EB529E00A6D09F /* WalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD59796322EB529E00A6D09F /* WalkthroughPageViewController.swift */; };
 		BDA872D622E591E50019B9F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA872D522E591E50019B9F0 /* AppDelegate.swift */; };
 		BDA872DD22E591E50019B9F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA872DC22E591E50019B9F0 /* Assets.xcassets */; };
 		BDA872E022E591E50019B9F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA872DE22E591E50019B9F0 /* LaunchScreen.storyboard */; };
@@ -30,6 +32,8 @@
 		BD59795A22E8BE8800A6D09F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		BD59795C22E8D14C00A6D09F /* AddRestaurantController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRestaurantController.swift; sourceTree = "<group>"; };
 		BD59795F22E99A9500A6D09F /* FoodPin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodPin.xcdatamodel; sourceTree = "<group>"; };
+		BD59796122EB4B6F00A6D09F /* WalkthroughContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughContentViewController.swift; sourceTree = "<group>"; };
+		BD59796322EB529E00A6D09F /* WalkthroughPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughPageViewController.swift; sourceTree = "<group>"; };
 		BDA872D222E591E50019B9F0 /* FoodPin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodPin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA872D522E591E50019B9F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDA872DC22E591E50019B9F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 				BD59795122E81A1000A6D09F /* ReviewViewController.swift */,
 				BD59795A22E8BE8800A6D09F /* MapViewController.swift */,
 				BD59795C22E8D14C00A6D09F /* AddRestaurantController.swift */,
+				BD59796122EB4B6F00A6D09F /* WalkthroughContentViewController.swift */,
+				BD59796322EB529E00A6D09F /* WalkthroughPageViewController.swift */,
 				BDA872EF22E6254E0019B9F0 /* Restaurant.swift */,
 				BDA872E722E592B70019B9F0 /* Main.storyboard */,
 				BDA872DC22E591E50019B9F0 /* Assets.xcassets */,
@@ -181,6 +187,8 @@
 				BDA872EA22E598070019B9F0 /* RestaurantTableViewController.swift in Sources */,
 				BD59795222E81A1000A6D09F /* ReviewViewController.swift in Sources */,
 				BDA872EC22E5A14D0019B9F0 /* RestaurantTableViewCell.swift in Sources */,
+				BD59796222EB4B6F00A6D09F /* WalkthroughContentViewController.swift in Sources */,
+				BD59796422EB529E00A6D09F /* WalkthroughPageViewController.swift in Sources */,
 				BD59796022E99A9500A6D09F /* FoodPin.xcdatamodeld in Sources */,
 				BD59795022E71AAE00A6D09F /* RestaurantDetailTableViewCell.swift in Sources */,
 				BDA872EE22E61A100019B9F0 /* RestaurantDetailViewController.swift in Sources */,

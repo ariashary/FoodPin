@@ -603,6 +603,84 @@ What do you think?</string>
             </objects>
             <point key="canvasLocation" x="120.8" y="180.35982008995504"/>
         </scene>
+        <!--Walkthrough Content View Controller-->
+        <scene sceneID="daQ-9w-Pau">
+            <objects>
+                <viewController storyboardIdentifier="WalkthroughContentViewController" id="SjX-mr-GlC" customClass="WalkthroughContentViewController" customModule="FoodPin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lzs-UC-sMH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Personalize" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F9N-I0-Odw">
+                                <rect key="frame" x="102" y="40" width="171" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fdi-tt-JXf">
+                                <rect key="frame" x="37.5" y="102" width="300" height="232"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fdi-tt-JXf" secondAttribute="height" multiplier="75:58" id="hhw-Qu-7DM"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bgm-ZH-3ou">
+                                <rect key="frame" x="15.5" y="354" width="344.5" height="60"/>
+                                <string key="text">Pin your favorite restaurants and
+create your own food guide</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="aj0-0s-qYL">
+                                <rect key="frame" x="168" y="623" width="39" height="37"/>
+                            </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZA-0d-6vv">
+                                <rect key="frame" x="320" y="626" width="39" height="30"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="SjX-mr-GlC" eventType="touchUpInside" id="Y9g-YO-uTs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.75294117647058822" green="0.22352941176470587" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Bgm-ZH-3ou" firstAttribute="leading" secondItem="HEI-6D-WZh" secondAttribute="leading" constant="15.5" id="9B6-8A-YC4"/>
+                            <constraint firstItem="HEI-6D-WZh" firstAttribute="trailing" secondItem="fdi-tt-JXf" secondAttribute="trailing" constant="37.5" id="CZ9-25-wLT"/>
+                            <constraint firstItem="HEI-6D-WZh" firstAttribute="bottom" secondItem="HZA-0d-6vv" secondAttribute="bottom" constant="11" id="FGU-Je-Cqq"/>
+                            <constraint firstItem="HEI-6D-WZh" firstAttribute="trailing" secondItem="HZA-0d-6vv" secondAttribute="trailing" constant="16" id="H3o-3d-f31"/>
+                            <constraint firstItem="fdi-tt-JXf" firstAttribute="leading" secondItem="HEI-6D-WZh" secondAttribute="leading" constant="37.5" id="J2O-j3-FH1"/>
+                            <constraint firstItem="HEI-6D-WZh" firstAttribute="trailing" secondItem="Bgm-ZH-3ou" secondAttribute="trailing" constant="15" id="TEG-6f-ptf"/>
+                            <constraint firstItem="aj0-0s-qYL" firstAttribute="centerX" secondItem="HEI-6D-WZh" secondAttribute="centerX" id="UgZ-Rc-ezO"/>
+                            <constraint firstItem="Bgm-ZH-3ou" firstAttribute="top" secondItem="fdi-tt-JXf" secondAttribute="bottom" constant="20" id="g19-gU-SoL"/>
+                            <constraint firstItem="F9N-I0-Odw" firstAttribute="top" secondItem="HEI-6D-WZh" secondAttribute="top" constant="20" id="gO4-p2-8fj"/>
+                            <constraint firstItem="HEI-6D-WZh" firstAttribute="bottom" secondItem="aj0-0s-qYL" secondAttribute="bottom" constant="7" id="ja9-g4-HFM"/>
+                            <constraint firstItem="fdi-tt-JXf" firstAttribute="top" secondItem="F9N-I0-Odw" secondAttribute="bottom" constant="20" id="lf7-S1-tge"/>
+                            <constraint firstItem="F9N-I0-Odw" firstAttribute="centerX" secondItem="Lzs-UC-sMH" secondAttribute="centerX" id="tba-4Q-NTb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HEI-6D-WZh"/>
+                    </view>
+                    <connections>
+                        <outlet property="contentImageView" destination="fdi-tt-JXf" id="dZa-Aj-rMr"/>
+                        <outlet property="contentLabel" destination="Bgm-ZH-3ou" id="CJc-ED-nqw"/>
+                        <outlet property="forwardButton" destination="HZA-0d-6vv" id="rhY-5i-xFI"/>
+                        <outlet property="headingLabel" destination="F9N-I0-Odw" id="jtC-yc-BLc"/>
+                        <outlet property="pageControl" destination="aj0-0s-qYL" id="S9e-Hc-nw0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TF6-O0-g5c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2510" y="-1304"/>
+        </scene>
+        <!--Walkthrough Page View Controller-->
+        <scene sceneID="j6K-tR-qdz">
+            <objects>
+                <pageViewController storyboardIdentifier="WalkthroughController" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="UJQ-iq-AK9" customClass="WalkthroughPageViewController" customModule="FoodPin" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MKV-Pf-Tpx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1713" y="-1303"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="TZc-Vy-k47">
             <objects>
