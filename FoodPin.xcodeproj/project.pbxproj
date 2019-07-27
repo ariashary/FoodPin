@@ -15,6 +15,8 @@
 		BD59796022E99A9500A6D09F /* FoodPin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD59795E22E99A9500A6D09F /* FoodPin.xcdatamodeld */; };
 		BD59796222EB4B6F00A6D09F /* WalkthroughContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD59796122EB4B6F00A6D09F /* WalkthroughContentViewController.swift */; };
 		BD59796422EB529E00A6D09F /* WalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD59796322EB529E00A6D09F /* WalkthroughPageViewController.swift */; };
+		BD6AB60B22EC1066005B4969 /* about.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD6AB60A22EC1066005B4969 /* about.storyboard */; };
+		BD6AB60D22EC114D005B4969 /* discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD6AB60C22EC114D005B4969 /* discover.storyboard */; };
 		BDA872D622E591E50019B9F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA872D522E591E50019B9F0 /* AppDelegate.swift */; };
 		BDA872DD22E591E50019B9F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA872DC22E591E50019B9F0 /* Assets.xcassets */; };
 		BDA872E022E591E50019B9F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA872DE22E591E50019B9F0 /* LaunchScreen.storyboard */; };
@@ -34,6 +36,8 @@
 		BD59795F22E99A9500A6D09F /* FoodPin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodPin.xcdatamodel; sourceTree = "<group>"; };
 		BD59796122EB4B6F00A6D09F /* WalkthroughContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughContentViewController.swift; sourceTree = "<group>"; };
 		BD59796322EB529E00A6D09F /* WalkthroughPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		BD6AB60A22EC1066005B4969 /* about.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = about.storyboard; sourceTree = "<group>"; };
+		BD6AB60C22EC114D005B4969 /* discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = discover.storyboard; sourceTree = "<group>"; };
 		BDA872D222E591E50019B9F0 /* FoodPin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodPin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA872D522E591E50019B9F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDA872DC22E591E50019B9F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				BD59796322EB529E00A6D09F /* WalkthroughPageViewController.swift */,
 				BDA872EF22E6254E0019B9F0 /* Restaurant.swift */,
 				BDA872E722E592B70019B9F0 /* Main.storyboard */,
+				BD6AB60C22EC114D005B4969 /* discover.storyboard */,
+				BD6AB60A22EC1066005B4969 /* about.storyboard */,
 				BDA872DC22E591E50019B9F0 /* Assets.xcassets */,
 				BDA872DE22E591E50019B9F0 /* LaunchScreen.storyboard */,
 				BDA872E122E591E50019B9F0 /* Info.plist */,
@@ -171,6 +177,8 @@
 			files = (
 				BDA872E022E591E50019B9F0 /* LaunchScreen.storyboard in Resources */,
 				BDA872DD22E591E50019B9F0 /* Assets.xcassets in Resources */,
+				BD6AB60D22EC114D005B4969 /* discover.storyboard in Resources */,
+				BD6AB60B22EC1066005B4969 /* about.storyboard in Resources */,
 				BDA872E822E592B70019B9F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

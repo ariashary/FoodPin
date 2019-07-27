@@ -24,9 +24,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white, NSAttributedString.Key.font: barFont]
         }
         
-        
-        
         //UIApplication.shared.statusBarStyle = .lightContent
+        
+        // Customing the Appearance of the Tab Bar
+        UITabBar.appearance().tintColor = UIColor(red: 218/255, green: 100/255, blue: 70/255, alpha: 1)
+        UITabBar.appearance().barTintColor = UIColor(red: 236/255, green: 240/255, blue: 241/255, alpha: 1)
+        //UITabBar.appearance().backgroundImage = UIImage(named: "tabbar-background")
+        
+        UITabBar.appearance().tintColor = UIColor.white
+        UITabBar.appearance().selectionIndicatorImage = UIImage(named: "tabitem-selected")
+
         
         return true
     }
