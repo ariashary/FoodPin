@@ -25,6 +25,8 @@
 		BDA872EC22E5A14D0019B9F0 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA872EB22E5A14D0019B9F0 /* RestaurantTableViewCell.swift */; };
 		BDA872EE22E61A100019B9F0 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA872ED22E61A100019B9F0 /* RestaurantDetailViewController.swift */; };
 		BDA872F022E6254E0019B9F0 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA872EF22E6254E0019B9F0 /* Restaurant.swift */; };
+		BDC343E922EC3EDE0055AE49 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC343E822EC3EDE0055AE49 /* AboutTableViewController.swift */; };
+		BDC343EB22EC45FC0055AE49 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC343EA22EC45FC0055AE49 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		BDA872EB22E5A14D0019B9F0 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
 		BDA872ED22E61A100019B9F0 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
 		BDA872EF22E6254E0019B9F0 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		BDC343E822EC3EDE0055AE49 /* AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		BDC343EA22EC45FC0055AE49 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				BD59795C22E8D14C00A6D09F /* AddRestaurantController.swift */,
 				BD59796122EB4B6F00A6D09F /* WalkthroughContentViewController.swift */,
 				BD59796322EB529E00A6D09F /* WalkthroughPageViewController.swift */,
+				BDC343E822EC3EDE0055AE49 /* AboutTableViewController.swift */,
+				BDC343EA22EC45FC0055AE49 /* WebViewController.swift */,
 				BDA872EF22E6254E0019B9F0 /* Restaurant.swift */,
 				BDA872E722E592B70019B9F0 /* Main.storyboard */,
 				BD6AB60C22EC114D005B4969 /* discover.storyboard */,
@@ -191,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD59795D22E8D14C00A6D09F /* AddRestaurantController.swift in Sources */,
+				BDC343E922EC3EDE0055AE49 /* AboutTableViewController.swift in Sources */,
 				BDA872F022E6254E0019B9F0 /* Restaurant.swift in Sources */,
 				BDA872EA22E598070019B9F0 /* RestaurantTableViewController.swift in Sources */,
 				BD59795222E81A1000A6D09F /* ReviewViewController.swift in Sources */,
@@ -200,6 +207,7 @@
 				BD59796022E99A9500A6D09F /* FoodPin.xcdatamodeld in Sources */,
 				BD59795022E71AAE00A6D09F /* RestaurantDetailTableViewCell.swift in Sources */,
 				BDA872EE22E61A100019B9F0 /* RestaurantDetailViewController.swift in Sources */,
+				BDC343EB22EC45FC0055AE49 /* WebViewController.swift in Sources */,
 				BDA872D622E591E50019B9F0 /* AppDelegate.swift in Sources */,
 				BD59795B22E8BE8800A6D09F /* MapViewController.swift in Sources */,
 			);

@@ -29,8 +29,8 @@
         <!--UITableViewController-pQM-oh-kzc-->
         <scene sceneID="TvJ-Am-SU0">
             <objects>
-                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="UITableViewController-pQM-oh-kzc" id="dvA-qr-SHU" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zQT-lj-Ayv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="UITableViewController-pQM-oh-kzc" id="dvA-qr-SHU" sceneMemberID="viewController"/>
             </objects>
             <point key="canvasLocation" x="1060" y="1675"/>
         </scene>
